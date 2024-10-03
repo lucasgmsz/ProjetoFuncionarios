@@ -29,3 +29,4 @@ C:\Users\Lucas\source\repos\Funcionarios\obj\Debug\net8.0-windows\refint\Funcion
 C:\Users\Lucas\source\repos\Funcionarios\obj\Debug\net8.0-windows\Funcionarios.pdb
 C:\Users\Lucas\source\repos\Funcionarios\obj\Debug\net8.0-windows\Funcionarios.genruntimeconfig.cache
 C:\Users\Lucas\source\repos\Funcionarios\obj\Debug\net8.0-windows\ref\Funcionarios.dll
+C:\Users\Lucas\source\repos\Funcionarios\obj\Debug\net8.0-windows\Funcionarios.sourcelink.json

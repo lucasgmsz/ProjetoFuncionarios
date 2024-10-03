@@ -7,25 +7,45 @@ namespace Funcionarios
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnCadastrar_Click(object sender, EventArgs e)
         {
             try
             {
-                //4 variaveis declaradas passadando as informações do banco de dados
-                const string servidor = "localhost";
-                const string bancoDados = "dbFuncionarios";
-                const string usuario = "root";
-                const string senha = "db4dm1n";
+                if (!txtNome.Text.Equals("") && !txtEmail.Text.Equals("") && !txtCpf.Text.Equals("") && !txtEndereco.Text.Equals(""))
+                {
+                    CadastroFuncionarios cadFuncionarios = new CadastroFuncionarios();
+                    cadFuncionarios.Nome = txtNome.Text;
+                    cadFuncionarios.Email = txtEmail.Text;
+                    cadFuncionarios.Cpf = txtCpf.Text;
+                    cadFuncionarios.Endereco = txtEndereco.Text;
 
-                //declarando variavel conexaoBanco para fazer a conexao com o banco de dados
-                string conexaoBanco = $"server={servidor}; user id ={usuario};database={bancoDados};password={senha}"; //string conexaoBanco = "server= + servidor +; user id = +usuario};database={bancoDados};password={senha}";
-
-                //alterando o texto de lblTeste para dizer se ocorreu a conexao com o banco de dados
-                lblTeste.Text = $"A conexão com o banco {bancoDados} foi realizada com sucesso";
+                    if (cadFuncionarios.cadastrarFuncionarios())
+                    {
+                        MessageBox.Show($"O funcionário {cadFuncionarios.Nome} foi cadastrado com sucesso!");
+                        txtNome.Clear();
+                        txtEmail.Clear();
+                        txtCpf.Clear();
+                        txtEndereco.Clear();
+                        txtNome.Focus();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Não foi possível cadastrar funcionário!");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Favor preencher todos os campos corretamente!");
+                    txtNome.Clear();
+                    txtEmail.Clear();
+                    txtCpf.Clear();
+                    txtEndereco.Clear();
+                    txtNome.Focus();
+                }
             }
-            catch(Exception ex) 
+            catch (Exception ex)
             {
-                MessageBox("Ocorreu um erro " + ex.Message);
+                MessageBox.Show("Erro ao cadastrar funcionário: " + ex.Message);
             }
         }
     }

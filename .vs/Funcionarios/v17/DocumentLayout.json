@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|c:\\users\\lucas\\source\\repos\\funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|c:\\users\\lucas\\source\\repos\\funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|c:\\users\\lucas\\source\\repos\\funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|c:\\users\\lucas\\source\\repos\\funcionarios\\cadastrofuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|solutionrelative:cadastrofuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|c:\\users\\lucas\\source\\repos\\funcionarios\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC13DC6-E61A-4462-94E4-BB48D55071F1}|Funcionarios.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:10:34.268Z",
+              "WhenOpened": "2024-10-03T22:03:13.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CadastroFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\CadastroFuncionarios.cs",
+              "RelativeDocumentMoniker": "CadastroFuncionarios.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\CadastroFuncionarios.cs",
+              "RelativeToolTip": "CadastroFuncionarios.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwEAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:48:53.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:56:12.589Z",
+              "WhenOpened": "2024-10-03T21:48:07.302Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Funcionarios\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAiwJMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:47:51.888Z",
+              "EditorCaption": ""
             }
           ]
         }
